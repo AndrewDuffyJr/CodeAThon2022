@@ -1,0 +1,67 @@
+:root {
+    --bg: #282a36;
+    --text: #f8f8f2;
+    --current-line:#44475a;
+    --comment: #6272a4;
+    --cyan: #8be9fd;
+    --green: #50fa7b;
+    --orange: #ffb86c;
+    --pink: #ff79c6;
+    --purple: #bd93f9;
+    --red: #ff5555;
+    --yellow: #f1fa8c;
+}
+
+html {
+    font-family: Iosevka;
+}
+
+body {
+    color: var(--text);
+    background-color: var(--bg);
+}
+
+.welcome {
+    text-align: center;
+    font-size: 15vw;
+}
+
+.welcome-text {
+    text-align: center;
+    font-size: 5vw;
+}
+
+#jscontent {
+    margin-top: 1vw;
+    text-align: center;
+}
+
+nav {
+    width: 100vw;
+    margin-top: 1vh;
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+.topleftnav {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link {
+    color: var(--text);
+}
+
+a:visited {
+    color: var(--text);
+}
+
+a:hover {
+    font-style: oblique;
+    color: var(--text);
+}
+
